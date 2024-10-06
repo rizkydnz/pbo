@@ -15,9 +15,12 @@ public class TugasKalkulator {
         System.out.println("================================================\n");
         System.out.print("Welcome, tekan enter untuk melanjutkan program "); // tekan enter untuk melanjutkan
         input.nextLine(); // untuk melakukan pause
+
+        System.out.print("\033[H\033[2J");
+        System.out.flush(); // Untuk membersihkan tampilan saat output
         
         // Menampilkan dan memasukkan angka
-        System.out.println("\n==================================================");
+        System.out.println("==================================================");
         System.out.println("Program Kalkulator Sederhana");
         System.out.println("==================================================");
         System.out.print("Masukkan angka pertama: ");
@@ -25,16 +28,22 @@ public class TugasKalkulator {
         
         System.out.print("Masukkan angka kedua: ");
         int angka2 = input.nextInt();
-        System.out.println("==================================================");
+        System.out.println("==================================================\n");
+
+        System.out.print("\033[H\033[2J");
+        System.out.flush();
         
         // Menampilkan pilihan operasi
-        System.out.println("\nPilih operasi yang diinginkan:");
+        System.out.println("Pilih operasi yang diinginkan:");
         System.out.println("1. Penjumlahan (+)");
         System.out.println("2. Pengurangan (-)");
         System.out.println("3. Perkalian (*)");
         System.out.println("4. Pembagian (/)");
         System.out.print("Masukkan pilihan (1/2/3/4): ");
         int pilihan = input.nextInt();
+
+        System.out.print("\033[H\033[2J");
+        System.out.flush();
         
         int hasil = 0;
         boolean operasiValid = true;
