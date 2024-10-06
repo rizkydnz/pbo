@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class TugasKalkulator {
     public static void main(String[] args) {
-        Scanner input = new Scanner(System.in);
+        Scanner input = new Scanner(System.in); // Scanner untuk membaca inputan dari pengguna
 
         System.out.println("\n================================================");
         System.out.println("Tugas Praktikum PBO Membuat Kalkulator Sederhana");
@@ -12,11 +12,11 @@ public class TugasKalkulator {
         System.out.println("Nama : Rizky Dwi Nugroho");
         System.out.println("NIM : 20230801412");
         System.out.println("================================================\n");
-        System.out.println("Welcome, tekan enter untuk melanjutkan....");
-        input.nextLine();
+        System.out.print("Welcome, tekan enter untuk melanjutkan program "); // tekan enter untuk melanjutkan
+        input.nextLine(); // untuk melakukan pause
         
-        // Menampilkan menu
-        System.out.println("==================================================");
+        // Menampilkan dan memasukkan angka
+        System.out.println("\n==================================================");
         System.out.println("Program Kalkulator Sederhana");
         System.out.println("==================================================");
         System.out.print("Masukkan angka pertama: ");
