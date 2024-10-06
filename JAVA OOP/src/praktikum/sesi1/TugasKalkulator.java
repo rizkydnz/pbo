@@ -29,9 +29,6 @@ public class TugasKalkulator {
         System.out.print("Masukkan angka kedua: ");
         int angka2 = input.nextInt();
         System.out.println("==================================================\n");
-
-        System.out.print("\033[H\033[2J");
-        System.out.flush();
         
         // Menampilkan pilihan operasi
         System.out.println("Pilih operasi yang diinginkan:");
@@ -41,9 +38,6 @@ public class TugasKalkulator {
         System.out.println("4. Pembagian (/)");
         System.out.print("Masukkan pilihan (1/2/3/4): ");
         int pilihan = input.nextInt();
-
-        System.out.print("\033[H\033[2J");
-        System.out.flush();
         
         int hasil = 0;
         boolean operasiValid = true;
