@@ -1,9 +1,10 @@
-package praktikum.sesi3;
+package praktikum.sesi1;
 
 import java.util.Scanner;
 
 public class TugasKalkulator {
     public static void main(String[] args) {
+
         Scanner input = new Scanner(System.in); // Scanner untuk membaca inputan dari pengguna
 
         System.out.println("\n================================================");
@@ -68,9 +69,9 @@ public class TugasKalkulator {
         
         // Jika operasi valid, tampilkan hasilnya
         if (operasiValid) {
-            System.out.println("Operasi selesai.");
+            System.out.println("Operasi selesai.\n");
         } else {
-            System.out.println("Operasi tidak dapat dilanjutkan.");
+            System.out.println("Operasi tidak dapat dilanjutkan.\n");
         }
 
         input.close();
