@@ -21,7 +21,7 @@ public class TugasKalkulator {
         
         // Menampilkan dan memasukkan angka
         System.out.println("==================================================");
-        System.out.println("Program Kalkulator Sederhana");
+        System.out.println("          Program Kalkulator Sederhana");
         System.out.println("==================================================");
         System.out.print("Masukkan angka pertama: ");
         int angka1 = input.nextInt();
