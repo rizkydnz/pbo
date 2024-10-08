@@ -12,7 +12,7 @@ public class OperatorLogika {
     System.out.println(j); // 10
     System.out.println(test); // false
     
-    // demonstrasi &&
+    // demonstrasi &
     test = (i > 10) & (j++ > 9);
     System.out.println(i); // 0
     System.out.println(j); // 11
