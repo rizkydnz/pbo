@@ -22,9 +22,9 @@ public class HitungGrade {
             grade = "B";
         } else if (nilai >= 60){
             grade = "C+";
-        } else if (nilai >= 60){
+        } else if (nilai >= 50){
             grade = "C";
-        } else if (nilai >= 60){
+        } else if (nilai >= 40){
             grade = "D";
         } else {
             grade = "E";
