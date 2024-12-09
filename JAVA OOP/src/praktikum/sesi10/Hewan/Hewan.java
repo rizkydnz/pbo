@@ -1,5 +1,7 @@
 package praktikum.sesi10.Hewan;
 
+import java.util.Scanner;
+
 public class Hewan {
     protected String suara;
 
@@ -189,5 +191,6 @@ class Pewarisan{
 
         Lele ll1 = new Lele();
         ll1.cetak();
+
     }
 }
