@@ -1,7 +1,5 @@
 package praktikum.sesi10.Hewan;
 
-import java.util.Scanner;
-
 public class Hewan {
     protected String suara;
 
